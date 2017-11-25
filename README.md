@@ -1,13 +1,12 @@
 # encode_requests
 
-Retrieve the StackOverflow answer data for a given date/time range from the StackExchange API (https://api.stackexchange.com/docs/answers).
-Retrieve the comment data for a given set of answers (https://api.stackexchange.com/docs/comments­on­answers).
 For a given date/time range calculates:
-the total number of accepted answers.
-the average score for all the accepted answers.
-the average answer count per question.
-the comment count for each of the 10 answers with the highest score.
-Collects and returns the calculated statistics in tabular, HTML or JSON format.
+
+1. the total number of accepted answers.
+2. the average score for all the accepted answers.
+3. the average answer count per question.
+4. the comment count for each of the 10 answers with the highest score.
+5. Collects and returns the calculated statistics in tabular, HTML or JSON format.
 
 ## REQUIREMENTS
 Install python mock.
