@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "is_accepted": false,
+      "score": 3,
+      "answer_id": 46051675,
+      "question_id": 44118002
+    },
+    {
+      "is_accepted": false,
+      "score": 1,
+      "answer_id": 45535808,
+      "question_id": 45535376
+    },
+    {
+      "comments": [
+        {
+          "comment_id": 77027553
+        },
+        {
+          "comment_id": 77640153
+        },
+        {
+          "comment_id": 78151382
+        },
+        {
+          "comment_id": 81872015
+        }
+      ],
+      "is_accepted": true,
+      "score": 6,
+      "answer_id": 45017555,
+      "question_id": 44852055
+      }
+  ],
+  "has_more": true,
+  "quota_max": 10000,
+  "quota_remaining": 9689
+}
