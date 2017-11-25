@@ -37,7 +37,7 @@ python main_module.py --since '2011-11-15 10:00:00' --until '2016-06-05 10:00:00
 ```
 
 Assumptions: 
-Only 20 pages are retrieved. It is easy to change the code for 100 pages which is the maximum limit for stackoverflow.
+Only 20 pages are retrieved. It is easy to change the code for 100 pages which is the maximum page size limit.
 
 ## TESTING
 ```
