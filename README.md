@@ -14,6 +14,10 @@ Install python mock.
 $ sudo pip install mock
 ```
 
+```
+$ sudo pip install requests
+```
+
 ## INSTALL
 Alternatevely if you have donwloaded source code:
 ```
@@ -21,8 +25,13 @@ python setup.py install
 ```
 ## HOW TO RUN IT
 Inside src code Run:
+
 ```
-$ python main_module.py --help
+alias stats=python main_module.py
+```
+
+```
+$ stats --help
 Usage: stats --since <date>  --until <date> [--output-format] <tab|json|html>
 
 Options:
@@ -33,11 +42,11 @@ Options:
 ```
 You have to provide since date and until date, output-format is optional and defaults to tab:
 ```
-python main_module.py --since '2011-11-15 10:00:00' --until '2016-06-05 10:00:00' -output-format html
+stats --since '2011-11-15 10:00:00' --until '2016-06-05 10:00:00' -output-format html
 ```
 
 Assumptions: 
-Only 20 pages are retrieved. It is easy to change the code for 100 pages which is the maximum page size limit.
+Only 20 pages are retrieved per request. It is easy to change the code for 100 pages which is the maximum page size limit.
 
 ## TESTING
 ```
