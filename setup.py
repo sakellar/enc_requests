@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-   name='encode-python-assignment',
+   name='encoding-python-assignment',
    version='1.0',
    packages=['src','tst'],
    description='python-assignment',
